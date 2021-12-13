@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<meta name="author" contact="Lloyd Backstrom"> 
+<meta name="name" contact="projects">
+
+<style>
+#grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  
+}
+@media (max-width: 450px) {
+  img {
+    width:50%;
+    height:50%;
+  }
+}
+@media screen and (min-width: 1500px){ 
+        #grid{
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+#grid > div {
+  background-color: white;
+  padding: 5px;
+  color:black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.grid-container {
+  display: grid;
+}
+a {
+    color:blue;
+    
+}
+img{
+    height: 300px;
+}
+li{
+    display: inline-block; 
+    float: none;  
+}
+nav {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    position: fixed;
+    width: 1220px;
+     z-index:10;
+    background-color: white;
+} 
+ul{
+    text-align:center; 
+}
+li:hover {
+    background-color:#FF0000;
+  }
+</style>
+<nav>
+<ul>
+<li><a href="index.html" rel="index" type="text/html">Home</a></li>
+<li><a href="projects.html" rel="projects" type="text/html">Projects</a></li>
+<li><a href="contact.html" rel="contact" type="text/html">Contact</a> </li>
+</ul>
+</nav> 
+<br> <br> <br>
+<h1>Projects</h1>
+</head>
+<body> 
+    <div id="grid">  
+            <div> <img src="images/Blueboy.jpg" alt="Blue Boy"> </div>
+            <div> <a href = "TicTacToe/index.html"><img src="images/Tictactoe.jpg" alt="Tic-Tac-Toe"> </a></div>
+            <div> <img src="images/starynight.jpg" alt="Starry Night"></div>
+            <div> <img src="images/Farmer.jpg" alt="American Gothic"> </div>
+            <div><img src="images/Scrream.jpg" alt="Screaming in the sun"></div>
+            <div> <img src="images/Whistler.jpg" alt="Whistler's Mother"></div>
+    </div>
+ </container> 
+</body>
+</html>

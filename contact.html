@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<meta name="author" contact="Lloyd Backstrom"> 
+<meta name="name" contact="contact"> 
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<h1>Contacts</h1> 
+</head>
+<style>
+    
+    #content-container{
+    text-align:center; 
+    border:5px solid black;
+    background-color: #ac8cc7;
+        
+    }
+    img {
+    height:55px;
+    align-content: center;
+    display:inline-block;
+    }
+    input:focus{
+    border-color:#001FFF;
+    border:55px,solid;
+    }
+
+    
+</style>
+<body>
+    <nav>
+        <ul>
+    <li><a href="index.html" rel="index" type="text/html">Home</a></li>
+    <li><a href="projects.html" rel="projects" type="text/html">Projects</a></li>
+    <li><a href="contact.html" rel="contact" type="text/html">Contact</a> </li>
+    </ul>
+    </nav>
+    <br>
+    <div id="content-container">
+    <form action="https://postman-echo.com/post" method="post">
+    <br>
+    <label for="Username"> Username</label>
+    <input id=“username” input type="username" name="username" placeholder="username" required>
+    <label for="password"> Password</label>
+    <input id=“password” input type="password" name="password" placeholder="password" required>
+    <br>
+    <br>
+    <label for="textarea"> Messages</label>
+    <input id=“textarea” input type="textarea" name="textarea" placeholder="Start Writing!" required>
+    <br>
+    <br>
+    <label for="submit"> Submit Button</label>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    </form>
+    </div>
+</body>
+<footer>
+    <a href = "https://www.twitter.com" style=color:transparent>
+    <img src="images/Itawt.png" alt="Twitter"> </a>
+    <a href = "https://www.instagram.com" style=color:transparent>>
+    <img src="images/Insta.png" alt="Instagram"> </a>
+    <a href = "https://www.facebook.com" style=color:transparent>>
+    <img src="images/Facee.png" alt="Facebook"></a>
+</footer>
+</html>
